@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/music-app/static/css/main.63ad7f23.css",
+    "main.js": "/music-app/static/js/main.5e08baec.js",
+    "static/media/trial-bckg.svg": "/music-app/static/media/trial-bckg.cdd9bf1d72b9896bdecb70b255eb97de.svg",
+    "static/media/sugesstion-banner.svg": "/music-app/static/media/sugesstion-banner.ca009c524cf3aabafe70dca14c985126.svg",
+    "static/media/footer-logo.svg": "/music-app/static/media/footer-logo.7ba9be699d19a6bd7164fee341a65be9.svg",
+    "static/media/navbar-logo.svg": "/music-app/static/media/navbar-logo.4965ccc5643a63fc545bf3c9d144240b.svg",
+    "static/media/forbes.svg": "/music-app/static/media/forbes.39c2eee7804dcea67c5ab42af345d1d6.svg",
+    "static/media/mit.svg": "/music-app/static/media/mit.330596fde531b915c09330bb6843392b.svg",
+    "static/media/fast-comp.svg": "/music-app/static/media/fast-comp.0c7abf648e917a0016b5bced990f38b8.svg",
+    "static/media/tech.svg": "/music-app/static/media/tech.fbf54e43416a41fe9c51f19e0f8a7bd3.svg",
+    "static/media/play-cycle.svg": "/music-app/static/media/play-cycle.4d21b6a48f2a2360372fbcaa71a629ae.svg",
+    "static/media/task-square.svg": "/music-app/static/media/task-square.a34754e1f030b1ed0328e352300b07ba.svg",
+    "index.html": "/music-app/index.html",
+    "main.63ad7f23.css.map": "/music-app/static/css/main.63ad7f23.css.map",
+    "main.5e08baec.js.map": "/music-app/static/js/main.5e08baec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ad7f23.css",
+    "static/js/main.5e08baec.js"
+  ]
+}
