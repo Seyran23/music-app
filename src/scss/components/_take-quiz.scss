@@ -1,0 +1,64 @@
+.take-quiz__sec {
+  margin-bottom: 11rem;
+
+  display: flex;
+
+  font-family: "Outfit", sans-serif;
+
+  &_content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+    h1 {
+      font-weight: 700;
+      font-size: 5.5rem;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 2.2rem;
+    }
+  }
+
+  .quiz__interaction {
+    position: relative;
+
+    .light-bg__cycle {
+      width: 33rem;
+      height: 25rem;
+      border-radius: 50%;
+      background: rgba(217, 217, 217, 0.3);
+      filter: blur(160px);
+      z-index: -100;
+    }
+
+    &_container {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+
+      padding: 1rem 4rem;
+      background: rgba(217, 217, 217, 1);
+      border-radius: 2rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+
+      .quiz-btn {
+        padding: 1.25rem 4.2rem;
+        font-weight: 600;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.partners-sec {
+  position: relative;
+
+  &__title {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+  }
+
+  .partners-container {
+    margin-top: 1rem;
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(106, 100, 233, 0.7);
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      opacity: 0.6;
+    }
+  }
+
+  // .blue-cycle {
+  //   background-color: rgba(72, 65, 226, 0.7);
+
+  //   bottom: -9.4rem;
+  //   right: -32.5rem;
+  // }
+}

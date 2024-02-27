@@ -1,0 +1,43 @@
+.sugesstions-sec{
+    margin-bottom: 6rem;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+
+    margin-left: -185px;
+    margin-right: -185px;
+    
+    &__banner {
+        // position: absolute;
+        // width: 100vw;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            opacity: 0.5;
+        }
+    }
+
+    &__content {
+
+        h1, h2 {
+            position: absolute;
+        }
+
+        h1 {
+            top: 2rem;
+            left: 20%;
+            font-size: 3.75rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            top: 12rem;
+            left: 10%;
+
+            color: #4F48EB;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+    }
+
+}

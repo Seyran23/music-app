@@ -1,0 +1,117 @@
+.log-in__sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    min-width: 50vw;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.25rem;
+
+    margin: 2rem 0 11rem;
+    padding: 3.5rem 5.5rem 2rem;
+    font-family: "Outfit", sans-serif;
+    background-color: #d9d9d9;
+    border-radius: 1rem;
+
+    position: relative;
+
+    .decor-triangle {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      width: 25%;
+      height: 50%;
+      border-radius: 0.5rem;
+      background-color: #4f48eb;
+      clip-path: polygon(100% 0, 0 0, 100% 100%);
+    }
+
+    .log-in__sec_title {
+      margin-bottom: 3rem;
+      color: black;
+      font-size: 5.5rem;
+      font-weight: 700;
+    }
+
+    .form {
+      width: 100%;
+
+      .input_container {
+        padding-bottom: 0.5rem;
+        display: flex;
+        gap: 2rem;
+
+        border-bottom: black solid 2px;
+
+        &:first-child {
+          margin-bottom: 3.75rem;
+        }
+
+        input {
+          padding: 0;
+          outline: none;
+          border: none;
+          background-color: transparent;
+          font-size: 1.25rem;
+        }
+      }
+
+      .btn-container {
+        display: flex;
+        justify-content: center;
+
+        .form-btn {
+          margin-top: 2.25rem;
+          color: white;
+          background-color: #100e34;
+
+          padding: 1.2rem 4.2rem;
+        }
+      }
+    }
+
+    .log-in_icons_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      h1 {
+        color: black;
+        font-size: 1.25rem;
+        font-weight: 500;
+        letter-spacing: 3px;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+      }
+    }
+
+    .no-acc__paragraph {
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 1.25rem;
+      span {
+        text-decoration: underline;
+        font-weight: 900;
+      }
+    }
+  }
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: #4f48eb;
+  cursor: pointer;
+}

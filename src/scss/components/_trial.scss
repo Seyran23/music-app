@@ -1,0 +1,51 @@
+.trial-sec {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+
+  &__content {
+    position: relative;
+
+    .img-container {
+      img {
+        width: 100%;
+        opacity: 0.4;
+      }
+    }
+
+    &-text {
+      position: absolute;
+      bottom: -7rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      h1 {
+        text-align: end;
+        font-family: "Outfit", sans-serif;
+        font-weight: 900;
+        font-size: 5.7rem;
+      }
+
+      p {
+        text-align: center;
+        margin-top: 5rem;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .btn-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+
+    .purple-btn {
+      padding: 1.25rem 2.8rem;
+    }
+
+    .transparent-btn {
+      padding: 1.25rem 4.4rem;
+    }
+  }
+}

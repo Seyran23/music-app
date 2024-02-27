@@ -1,0 +1,32 @@
+.music-sec {
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 12.5rem;
+
+  &__content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3rem;
+
+    .music-sec__title {
+      margin-right: 2rem;
+      font-weight: 700;
+      font-size: 3.75rem;
+    }
+  }
+
+  .music-player__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px;
+    gap: 3rem;
+  }
+
+  .blue-cycle {
+    background: rgba(31, 79, 171, 0.7);
+    bottom: -26rem;
+    left: -27rem;
+  }
+}

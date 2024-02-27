@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  position: relative;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 3.75rem;
+    
+    li {
+      color: white;
+    }
+  }
+
+  // .blue-cycle {
+  //   background-color: rgba(31, 79, 171, 0.7);
+  //   top: -280px;
+  //   left: -375px;
+  // }
+}
